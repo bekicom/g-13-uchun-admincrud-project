@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a{
+    color: white;
+    width: 100px;
+    height: 20px;
+    background-color: rebeccapurple;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #2c2626;
+    
+}
+
+.main{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: rgb(168, 33, 33);
+}
+
+/* ========.sitebar=========== */
+
+.sitebar{
+    width: 270px;
+    height: auto;
+    background-color: rgb(99, 99, 99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* ===================.sitebar --- end ==== */
+
+
+/* ======= reazalut==== */
+.rezalut{
+    width: 1170px;
+    height: auto;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* ======= reazalut-------end==== */
+
+
+/* =========link======= */
+
+
+.link{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ========== end link===== */
+
+.logo_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.active{
+    color: blue;
+}
+
+
